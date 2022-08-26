@@ -8,6 +8,8 @@ node -v
 npm -v
 ```
 
+## 1. NPM Commands
+
 ### How to create package.json
 
 ```bash
@@ -19,5 +21,11 @@ npm init -y
 ### Install library
 
 ```bash
-npm install 'library-name'
+npm i
+npm install <package_name> (--save-prod)
+or 
+npm install <package_name> --global, -g > <package_name>
+
+npm uninstall <package_name>
+
 ```
