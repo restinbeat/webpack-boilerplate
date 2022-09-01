@@ -18,7 +18,7 @@ or
 npm init -y
 ```
 
-### Install library
+### Install library 
 
 ```bash
 npm i
@@ -26,6 +26,9 @@ npm install <package_name> (--save-prod)
 or 
 npm install <package_name> --global, -g > <package_name>
 
-npm uninstall <package_name>
+npm intall vue --save-dev
+or
+npm i vue -D 
 
+npm uninstall <package_name>
 ```
